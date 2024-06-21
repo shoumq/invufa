@@ -3,8 +3,6 @@ import AuthenticatedLayout from '@/Layouts/AuthenticatedLayout.vue';
 import { Head } from '@inertiajs/vue3';
 import axios from 'axios';
 import { ref } from 'vue';
-import { saveAs } from 'file-saver';
-
 
 const title = ref(null)
 
